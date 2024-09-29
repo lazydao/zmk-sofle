@@ -63,7 +63,7 @@ layers:
   - $$mdi:keyboard-space$$
   - '2'
   - RETURN
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: 'Ctl+ ]', s: 'Ctl+ }'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   layer1:
   - {t: '`', s: '~'}
