@@ -57,11 +57,11 @@
 
         layer_1 {
             bindings = <
-&kp GRAVE   &kp F1           &kp F2          &kp F3           &kp F4           &kp F5             &mmv MOVE_UP     &kp F6           &kp F7           &kp F8    &kp F9         &kp F10           &kp F11
-&trans      &none            &mkp LCLK       &mkp MCLK        &mkp RCLK        &mkp MB4           &mmv MOVE_DOWN   &kp F12          &kp INS          &kp HOME  &kp PAGE_UP    &kp MINUS         &kp EQUAL
-&trans      &none            &trans          &trans           &trans           &mkp MB5           &mmv MOVE_LEFT   &none            &kp DEL          &kp END   &kp PAGE_DOWN  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
-&trans      &rgb_ug RGB_OFF  &rgb_ug RGB_ON  &rgb_ug RGB_EFF  &rgb_ug RGB_EFR  &rgb_ug RGB_SPI    &mmv MOVE_RIGHT  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &kp UP    &none          &none             &trans
-&kp C_MUTE  &trans           &trans          &trans           &trans           &trans             &mkp LCLK        &trans           &trans           &kp LEFT  &kp DOWN       &kp RIGHT
+&kp GRAVE   &kp F1           &kp F2          &kp F3           &kp F4           &kp F5             &mmv MOVE_UP     &kp F6            &kp F7           &kp F8           &kp F9             &kp F10           &kp F11
+&trans      &none            &mkp LCLK       &mkp MCLK        &mkp RCLK        &mkp MB4           &mmv MOVE_DOWN   &kp F12           &none            &none            &none              &kp MINUS         &kp EQUAL
+&trans      &none            &trans          &trans           &trans           &mkp MB5           &mmv MOVE_LEFT   &kp LEFT_BRACKET  &kp LEFT_BRACE   &kp RIGHT_BRACE  &kp RIGHT_BRACKET  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
+&trans      &rgb_ug RGB_OFF  &rgb_ug RGB_ON  &rgb_ug RGB_EFF  &rgb_ug RGB_EFR  &rgb_ug RGB_SPI    &mmv MOVE_RIGHT  &rgb_ug RGB_BRI   &rgb_ug RGB_BRD  &kp UP           &none              &none             &trans
+&kp C_MUTE  &trans           &trans          &trans           &trans           &trans             &mkp LCLK        &trans            &trans           &kp LEFT         &kp DOWN           &kp RIGHT
             >;
 
             display-name = "layer1";
@@ -70,11 +70,11 @@
 
         layer_2 {
             bindings = <
-&kp TILDE  &bt BT_SEL 0  &bt BT_SEL 1    &bt BT_SEL 2       &bt BT_SEL 3  &bt BT_SEL 4    &mmv MOVE_UP    &kp F6           &kp F7          &kp F8      &kp F9     &kp F10      &kp F11
-&trans     &bt BT_CLR    &bt BT_CLR_ALL  &trans             &trans        &trans          &mmv MOVE_DOWN  &kp F12          &trans          &none       &none      &kp UNDER    &kp PLUS
-&trans     &out OUT_USB  &out OUT_BLE    &ext_power EP_OFF  &trans        &trans          &mmv MOVE_LEFT  &none            &trans          &trans      &trans     &kp LBRC     &kp RBRC
-&trans     &sys_reset    &soft_off       &bootloader        &trans        &trans          &mmv MOVE_LEFT  &rgb_ug RGB_OFF  &rgb_ug RGB_ON  &sys_reset  &soft_off  &bootloader  &trans
-&trans     &trans        &trans          &trans             &trans        &trans          &mkp LCLK       &trans           &trans          &trans      &trans     &trans
+&kp TILDE  &bt BT_SEL 0  &bt BT_SEL 1    &bt BT_SEL 2       &bt BT_SEL 3  &bt BT_SEL 4    &mmv MOVE_UP     &none            &none           &none       &none          &none        &none
+&trans     &bt BT_CLR    &bt BT_CLR_ALL  &trans             &trans        &trans          &mmv MOVE_DOWN   &none            &kp INS         &kp HOME    &kp PAGE_UP    &kp UNDER    &kp PLUS
+&trans     &out OUT_USB  &out OUT_BLE    &ext_power EP_OFF  &trans        &trans          &mmv MOVE_LEFT   &none            &kp DEL         &kp END     &kp PAGE_DOWN  &kp LBRC     &kp RBRC
+&trans     &sys_reset    &soft_off       &bootloader        &trans        &trans          &mmv MOVE_RIGHT  &rgb_ug RGB_OFF  &rgb_ug RGB_ON  &sys_reset  &soft_off      &bootloader  &trans
+&trans     &trans        &trans          &trans             &trans        &trans          &mkp LCLK        &trans           &trans          &trans      &trans         &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;
