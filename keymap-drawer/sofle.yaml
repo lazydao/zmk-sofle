@@ -54,7 +54,7 @@ layers:
   - {t: /, s: '?'}
   - $$mdi:backspace-reverse-outline$$
   - $$mdi:volume-off$$
-  - {t: Ctl+ `, s: Ctl+ ~}
+  - {t: Ctl+`, s: Ctl+~}
   - $$mdi:apple-keyboard-command$$
   - $$mdi:apple-keyboard-option$$
   - layer1
@@ -63,8 +63,8 @@ layers:
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - '2'
-  - {t: 'Ctl+ ]', s: 'Ctl+ }'}
-  - {t: Ctl+ `, s: Ctl+ ~}
+  - {t: 'Ctl+]', s: 'Ctl+}'}
+  - {t: Ctl+`, s: Ctl+~}
   layer1:
   - {t: '`', s: '~'}
   - F1
@@ -86,10 +86,10 @@ layers:
   - $$mdi:mouse-right-click-outline$$
   - '&mkp MB4'
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
-  - +
-  - {t: '=', s: +}
+  - {t: Sft+=, s: Sft++}
   - {t: '-', s: _}
-  - {t: Sft+ -, s: Sft+ _}
+  - {t: Sft+-, s: Sft+_}
+  - {t: '=', s: +}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - F12
   - {t: '$$mdi:transfer$$', type: trans}
@@ -99,10 +99,10 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - '&mkp MB5'
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
-  - {t: 'Sft+ [', s: 'Sft+ {'}
+  - {t: 'Sft+[', s: 'Sft+{'}
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
-  - {t: 'Sft+ ]', s: 'Sft+ }'}
+  - {t: 'Sft+]', s: 'Sft+}'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -137,7 +137,7 @@ layers:
   - {h: '3', s: '$$mdi:bluetooth-connect$$'}
   - {h: '4', s: '$$mdi:bluetooth-connect$$'}
   - {h: '5', s: '$$mdi:bluetooth-connect$$'}
-  - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
+  - $$mdi:pan-up$$
   - F6
   - F7
   - F8
@@ -150,7 +150,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
+  - $$mdi:pan-down$$
   - {t: '$$mdi:transfer$$', type: trans}
   - INS
   - HOME
@@ -163,7 +163,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
+  - $$mdi:pan-left$$
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:backspace-reverse-outline$$
   - END
@@ -176,7 +176,7 @@ layers:
   - $$mdi:progress-download$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
+  - $$mdi:pan-right$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:backup-restore$$', type: bootloader}
